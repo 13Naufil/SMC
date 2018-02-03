@@ -242,7 +242,7 @@ var polarData = [
 		},
 		{
 			value: 5000,
-			color: "#00acc1",
+			color: "#041375",
 			highlight: "#4dd0e1",
 			label: "China"
 		},
