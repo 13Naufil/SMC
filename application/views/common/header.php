@@ -1,10 +1,12 @@
 <body>
 <!-- Start Page Loading -->
+<?php if(isset($loader)==1): ?>
 <div id="loader-wrapper">
     <div id="loader"></div>
     <div class="loader-section section-left"></div>
     <div class="loader-section section-right"></div>
 </div>
+<?php endif; ?>
 <!-- End Page Loading -->
 
 <!-- //////////////////////////////////////////////////////////////////////////// -->
@@ -17,7 +19,7 @@
             <div class="nav-wrapper">
 
                 <ul class="left">
-                    <li><h1 class="logo-wrapper"><a href="index.html" class="brand-logo darken-1">SMS</a> <span class="logo-text">SMS</span></h1></li>
+                    <li><h1 class="logo-wrapper"><a href="<?php echo base_url(); ?>" class="brand-logo darken-1">SMS</a> <span class="logo-text">SMS</span></h1></li>
                 </ul>
                 <div class="header-search-wrapper hide-on-med-and-down">
                     <i class="mdi-action-search"></i>
@@ -39,3 +41,12 @@
     <!-- end header nav-->
 </header>
 <!-- END HEADER -->
+<body>
+<!-- START MAIN -->
+<div id="main">
+    <!-- START WRAPPER -->
+    <div class="wrapper">
+
+        <!-- START LEFT SIDEBAR NAV-->
+        <?php include(APPPATH.'views/common/left_navigation.php'); ?>
+        <!-- END LEFT SIDEBAR NAV-->

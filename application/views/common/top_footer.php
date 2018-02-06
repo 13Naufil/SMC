@@ -1,3 +1,12 @@
+<!-- //////////////////////////////////////////////////////////////////////////// -->
+        <!-- START RIGHT SIDEBAR NAV-->
+        <?php include(APPPATH.'views/common/right_navigation.php'); ?>
+        <!-- LEFT RIGHT SIDEBAR NAV-->
+
+    </div>
+    <!-- END WRAPPER -->
+
+</div>
 <!-- START FOOTER -->
 <footer class="page-footer">
     <div class="footer-copyright">
